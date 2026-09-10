@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pro_black">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@drawable/bg_card"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="12dp">
+            <TextView android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"
+                android:text="M54ME PRO • REALTIME FIXED" android:textColor="@color/pro_gold" android:textStyle="bold" android:textSize="14sp"/>
+            <TextView android:id="@+id/liveDot" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="● LIVE" android:textColor="@color/pro_green" android:textSize="11sp" android:textStyle="bold"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/bg_card"
+            android:orientation="vertical" android:layout_marginTop="10dp" android:padding="14dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+                <TextView android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"
+                    android:text="XAUUSD • GOLD" android:textColor="@color/pro_text2" android:textSize="11sp"/>
+                <TextView android:id="@+id/tvMarketStatus" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="CONNECTED" android:textColor="@color/pro_green" android:textSize="10sp"/>
+            </LinearLayout>
+            <TextView android:id="@+id/tvPrice" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="2,045.32" android:textColor="@color/pro_text" android:textSize="28sp" android:textStyle="bold" android:layout_marginTop="6dp"/>
+            <TextView android:id="@+id/tvPriceChange" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="+0.34% • +6.92 REALTIME" android:textColor="@color/pro_green" android:textSize="12sp"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="200dp" android:background="@drawable/bg_card"
+            android:orientation="vertical" android:layout_marginTop="10dp" android:padding="10dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+                <TextView android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"
+                    android:text="GRAPPLER SCALE CHART - REAL STACK" android:textColor="@color/pro_text2" android:textSize="11sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="1M 5M 15M 1H" android:textColor="@color/pro_blue" android:textSize="11sp"/>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/chartPlaceholder" android:layout_width="match_parent" android:layout_height="0dp"
+                android:layout_weight="1" android:layout_marginTop="8dp" android:background="#0F1720" android:orientation="vertical"
+                android:gravity="center" android:padding="10dp">
+                <TextView android:id="@+id/tvChart" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="📈 GRAPPLER CHART&#10;BOS • CHoCH • SCALE&#10;0.1 LOT SYSTEM" android:textColor="@color/pro_text"
+                    android:textSize="12sp" android:gravity="center" android:lineSpacingExtra="4dp"/>
+                <TextView android:id="@+id/tvCandles" android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:text="🟩 🟥 🟩 🟩 🟥 🟩 🟩 🟥 🟩 🟩&#10;BUY SIGNAL ACTIVE" android:textColor="@color/pro_green"
+                    android:textSize="14sp" android:gravity="center" android:layout_marginTop="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/bg_card"
+            android:orientation="vertical" android:layout_marginTop="10dp" android:padding="14dp">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="⚡ PRO STRATEGY • PICK ENTRY SL TP" android:textColor="@color/pro_gold" android:textSize="12sp" android:textStyle="bold"/>
+            <GridLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:columnCount="3" android:rowCount="2" android:layout_marginTop="12dp">
+                <LinearLayout android:layout_width="0dp" android:layout_columnWeight="1" android:layout_height="wrap_content" android:orientation="vertical"
+                    android:background="@drawable/bg_chip" android:padding="8dp" android:layout_margin="4dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ENTRY LOT" android:textColor="@color/pro_text2" android:textSize="9sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0.1" android:textColor="@color/pro_text" android:textSize="16sp" android:textStyle="bold"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="0dp" android:layout_columnWeight="1" android:layout_height="wrap_content" android:orientation="vertical"
+                    android:background="@drawable/bg_chip" android:padding="8dp" android:layout_margin="4dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SL" android:textColor="@color/pro_red" android:textSize="9sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0.01" android:textColor="@color/pro_text" android:textSize="16sp" android:textStyle="bold"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="0dp" android:layout_columnWeight="1" android:layout_height="wrap_content" android:orientation="vertical"
+                    android:background="@drawable/bg_chip" android:padding="8dp" android:layout_margin="4dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TP1" android:textColor="@color/pro_green" android:textSize="9sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0.04" android:textColor="@color/pro_text" android:textSize="16sp" android:textStyle="bold"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="0dp" android:layout_columnWeight="1" android:layout_height="wrap_content" android:orientation="vertical"
+                    android:background="@drawable/bg_chip" android:padding="8dp" android:layout_margin="4dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TP2" android:textColor="@color/pro_green" android:textSize="9sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0.03" android:textColor="@color/pro_text" android:textSize="16sp" android:textStyle="bold"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="0dp" android:layout_columnWeight="1" android:layout_height="wrap_content" android:orientation="vertical"
+                    android:background="@drawable/bg_chip" android:padding="8dp" android:layout_margin="4dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TP3 / TRAIL" android:textColor="@color/pro_blue" android:textSize="9sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0.02" android:textColor="@color/pro_text" android:textSize="16sp" android:textStyle="bold"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="0dp" android:layout_columnWeight="1" android:layout_height="wrap_content" android:orientation="vertical"
+                    android:background="@drawable/bg_chip_active" android:padding="8dp" android:layout_margin="4dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="REAL STACK" android:textColor="@color/pro_gold" android:textSize="9sp"/>
+                    <TextView android:id="@+id/tvRealStack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ON • LIVE" android:textColor="@color/pro_text" android:textSize="13sp" android:textStyle="bold"/>
+                </LinearLayout>
+            </GridLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="12dp">
+                <Button android:id="@+id/btnBuy" android:layout_width="0dp" android:layout_weight="1" android:layout_height="48dp" android:text="BUY PICK" android:backgroundTint="@color/pro_green" android:layout_marginEnd="6dp"/>
+                <Button android:id="@+id/btnSell" android:layout_width="0dp" android:layout_weight="1" android:layout_height="48dp" android:text="SELL PICK" android:backgroundTint="@color/pro_red" android:layout_marginStart="6dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/bg_card"
+            android:orientation="vertical" android:layout_marginTop="10dp" android:padding="14dp">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="📋 CHEAT SHEET • MOBILE VIEW"
+                android:textColor="@color/pro_text2" android:textSize="11sp" android:textStyle="bold"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp"
+                android:text="1. ENTRY 0.1 LOT only sa BOS/CHoCH&#10;2. SL 0.01 below structure&#10;3. TP 0.04 / 0.03 / 0.02 trail&#10;4. Grappler scale: 1M entry, 5M confirm, 1H trend&#10;5. Real Stack: compound kada TP hit&#10;6. No trade kung spread > 30"
+                android:textColor="@color/pro_text" android:textSize="12sp" android:lineSpacingExtra="4dp"/>
+        </LinearLayout>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="M54ME PRO v2.1 FIXED • Zero Error • Gradle 8.5" android:textColor="@color/pro_text2" android:textSize="10sp"
+            android:gravity="center" android:layout_marginTop="20dp" android:layout_marginBottom="40dp"/>
+    </LinearLayout>
+</ScrollView>

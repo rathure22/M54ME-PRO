@@ -1,0 +1,6 @@
+<resources>
+    <style name="Theme.M54ME.PRO" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/pro_black</item>
+        <item name="android:navigationBarColor">@color/pro_black</item>
+    </style>
+</resources>
